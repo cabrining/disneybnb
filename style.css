@@ -1,0 +1,91 @@
+* {
+	font-family: 'Ms Madi', cursive;
+	margin: 0;
+	text-align: center;
+	background-color: blueviolet;
+}
+#toto {
+	width: 100%;
+	position: relative;
+}
+
+#coco {
+	width: 25%;
+	background-color: transparent;
+} 
+
+
+h1 {
+	font-size: 7em;
+}
+
+h2 {
+	font-size: 5em;
+}
+
+	.vmb {
+		width: 300px;
+		object-fit: cover;
+
+		border-radius: 20px;
+	} 
+
+	.vmb.shadow {
+
+		box-shadow: 0 5px 5px purple;
+	}
+
+p{
+	font-size: 1.5em;
+}
+
+
+
+ul,ol {
+	list-style-type: none;
+}
+
+ #abandonedDiv {
+ 	display: flex;
+ }
+#coco, #abandonedDiv > h1, #abandonedDiv > h2{
+	position: absolute;
+}
+#button{
+	top: 160%;
+	left: 8%;
+
+background-color: midnightblue;
+color: white;
+
+	border-radius: 50px;
+	padding: 1% 2%;
+	font-size: 3em;
+}
+
+#button > a {
+	background-color: midnightblue;
+	color: skyblue;
+	text-decoration: none;
+}
+h1 {
+	background-color: transparent;
+	top: 110%;
+	left: 4%;
+	text-align:left; 
+}
+#divdivdivdivdivdiv {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 3%;
+}
+#something{
+	padding-top: 3;
+}
+
+li {
+	font-size: 3em;
+}
+#tryh {
+	padding: 2%
+}
